@@ -1,0 +1,7 @@
+What the ArmoredJava Class does:
+
+1.the int arrays(s1, s2... to sEntered ) store ascii value of characters, which are converted to char type by the function printEggs.
+
+2.the function main uses printEggs to outputs several strings from int arrays, and decides whether the number input by the user is positive, zero or negative.
+
+3.handle the edge case: if the the input is a non-integer number or not-a-number string, it outputs "i dont think it is a number."
