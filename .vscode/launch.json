@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassPractice1",
+            "request": "launch",
+            "mainClass": "ClassPractice1",
+            "projectName": "java_d559a011"
+        },
+        {
+            "type": "java",
             "name": "Hello",
             "request": "launch",
             "mainClass": "Hello",
