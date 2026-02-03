@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassPractice3GradeCalculator",
+            "request": "launch",
+            "mainClass": "ClassPractice3GradeCalculator",
+            "projectName": "java_d559a011"
+        },
+        {
+            "type": "java",
             "name": "ClassPractice2TaxCalculator",
             "request": "launch",
             "mainClass": "ClassPractice2TaxCalculator",
