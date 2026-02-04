@@ -14,6 +14,6 @@ public class ClassPractice1 {
         //System.out.println("Your BMI is: " + bmi);
         System.out.printf("Your BMI is: %.2f\n", bmi);
         
-        
+        scanner.close();
     }
 }

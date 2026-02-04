@@ -18,6 +18,7 @@ public class ClassPractice2TaxCalculator {
         
         if(income <0){
             System.out.println("Income cannot be negative.");
+            scanner.close();
             return;
         }
         else if(income <= 9875){
@@ -37,8 +38,11 @@ public class ClassPractice2TaxCalculator {
         }
         else {
             System.out.println("Income exceeds the supported range.");
+            scanner.close();
             return;
         }
         System.out.printf("Your tax amount is: %.2f\n", tax);
+    
+        scanner.close();
     }    
 }
