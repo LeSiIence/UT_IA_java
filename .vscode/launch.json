@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Filework",
+            "request": "launch",
+            "mainClass": "Filework",
+            "projectName": "java_d559a011"
+        },
+        {
+            "type": "java",
+            "name": "ClassPractice5Function",
+            "request": "launch",
+            "mainClass": "ClassPractice5Function",
+            "projectName": "java_d559a011"
+        },
+        {
+            "type": "java",
             "name": "ClassPractice4GradeLoop",
             "request": "launch",
             "mainClass": "ClassPractice4GradeLoop",
