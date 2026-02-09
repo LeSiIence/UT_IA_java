@@ -31,7 +31,7 @@ public class ClassPractice5_1File {
         return data;
     }
 
-    static String[] filterData(String[] data) {
+    static String[] processData(String[] data) {
         // receive a String array, return a String array, filter the data based on specific criteria (lines containing the word "humpty")
         String[] filteredData = new String[MAX_SIZE];
         int index = 0;
@@ -56,7 +56,7 @@ public class ClassPractice5_1File {
     public static void main(String[] args) throws FileNotFoundException {
         printMessage();
         String[] data = readData();
-        String[] filteredData = filterData(data);
+        String[] filteredData = processData(data);
         writeResults(filteredData);
     }
 }
