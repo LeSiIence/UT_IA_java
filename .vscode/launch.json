@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassPractice6OOP",
+            "request": "launch",
+            "mainClass": "ClassPractice6OOP",
+            "projectName": "java_d559a011"
+        },
+        {
+            "type": "java",
             "name": "ClassPractice5_1File",
             "request": "launch",
             "mainClass": "ClassPractice5_1File",

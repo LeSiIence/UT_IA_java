@@ -22,6 +22,7 @@ public class ClassPractice5Function {
         int num1 = scanner.nextInt();
         System.out.print("Enter num2: ");
         int num2 = scanner.nextInt();
+        scanner.close();
         return new int[]{num1, num2};
     }
 
