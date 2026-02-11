@@ -44,10 +44,6 @@ class Point {
     }
 
     public boolean isEqual(Point other) {
-        if (Math.abs(this.x - other.x) < 1e-6 && Math.abs(this.y - other.y) < 1e-6) {
-            return true;
-        } else {
-            return false;
-        }
+        return Math.abs(this.x - other.x) < 1e-6 && Math.abs(this.y - other.y) < 1e-6;    
     }
 }
