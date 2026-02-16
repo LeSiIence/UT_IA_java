@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmployeeTest",
+            "request": "launch",
+            "mainClass": "EmployeeTest",
+            "projectName": "java_d559a011"
+        },
+        {
+            "type": "java",
+            "name": "LegalSecretary",
+            "request": "launch",
+            "mainClass": "LegalSecretary",
+            "projectName": "java_d559a011"
+        },
+        {
+            "type": "java",
             "name": "ClassPractice6OOP",
             "request": "launch",
             "mainClass": "ClassPractice6OOP",

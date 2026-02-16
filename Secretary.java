@@ -1,7 +1,8 @@
 public class Secretary extends Employee {
     @Override
     public double getSalary() {
-        return 45000.0;
+        //return 45000.0;
+        return super.getSalary() + 5000.0;
     }
 
     @Override
