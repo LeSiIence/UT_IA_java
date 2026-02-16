@@ -46,4 +46,40 @@ class Point {
     public boolean isEqual(Point other) {
         return Math.abs(this.x - other.x) < 1e-6 && Math.abs(this.y - other.y) < 1e-6;    
     }
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
+}
+
+class Rectangle {
+    private Point myPoint;
+    private double width, height;
+
+    public Rectangle(Point myPoint, double width, double height) {
+        this.myPoint = myPoint;
+        this.width = width;
+        this.height = height;
+    }
+
+    public Rectangle(double x, double y, double width, double height) {
+        this.myPoint = new Point(x, y);
+        this.width = width;
+        this.height = height;
+    }
+
+    public double area() {
+        return width * height;
+    }
+
+    public double intersectionArea(Rectangle other) {
+        double xOverlap = Math.max(0, Math.min(this.myPoint.getX() + this.width, other.myPoint.getX() + other.width) - Math.max(this.myPoint.getX(), other.myPoint.getX()));
+        double yOverlap = Math.max(0, Math.min(this.myPoint.getY() + this.height, other.myPoint.getY() + other.height) - Math.max(this.myPoint.getY(), other.myPoint.getY()));
+        return xOverlap * yOverlap;
+    }
+
 }
