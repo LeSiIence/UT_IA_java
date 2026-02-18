@@ -9,12 +9,12 @@ public class LegalSecretary extends Secretary {
         return super.getSalary();
     }
 
-    public static void main(String[] args) {
-        LegalSecretary legalSecretary = new LegalSecretary();
-        System.out.println(legalSecretary.getSalary());
-        System.out.println(legalSecretary.getVacationDays());
-        System.out.println(legalSecretary.getVacationForm());
-        System.out.println(legalSecretary.takeDictation("This is a legal dictation."));
-        System.out.println(legalSecretary.fileLegalBrief());
-    }
+    // public static void main(String[] args) {
+    //     LegalSecretary legalSecretary = new LegalSecretary();
+    //     System.out.println(legalSecretary.getSalary());
+    //     System.out.println(legalSecretary.getVacationDays());
+    //     System.out.println(legalSecretary.getVacationForm());
+    //     System.out.println(legalSecretary.takeDictation("This is a legal dictation."));
+    //     System.out.println(legalSecretary.fileLegalBrief());
+    // }
 }
